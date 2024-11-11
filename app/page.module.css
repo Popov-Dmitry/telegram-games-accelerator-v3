@@ -288,6 +288,10 @@
   height: 100%;
 }
 
+.w780 {
+  max-width: 780px;
+}
+
 .z2 {
   z-index: 200;
 }

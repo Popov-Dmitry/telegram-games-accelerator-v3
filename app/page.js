@@ -108,6 +108,23 @@ export default function Home() {
               height={465}
             />
           </div>
+          <div className={joinClassNames(styles.block, styles.hFull)}>
+            <div className={joinClassNames(styles.container, styles.centeredFlex)}>
+              <div className={joinClassNames(styles.flexRow, styles.w780)}>
+                <Image
+                  src="/logo-3d.png"
+                  alt=""
+                  width={320}
+                  height={346}
+                />
+                <div className={styles.textXl}>
+                  TGA is a Helika operated early stage accelerator for gaming studios looking to capitalize on the greenfield opportunity of the Telegram platform.
+                  <br /> <br />
+                  Our intensive 10-week program focuses on product testing and iterative development, and is designed to help studios rapidly improve their games as they prepare to launch their titles.
+                </div>
+              </div>
+            </div>
+          </div>
           <div
             className={joinClassNames(
               styles.block,
