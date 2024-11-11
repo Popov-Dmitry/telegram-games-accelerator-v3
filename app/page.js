@@ -53,7 +53,8 @@ export default function Home() {
                 styles.gap13
               )}
             >
-              <div className={styles.centeredFlex}>
+              <div className={joinClassNames(styles.centeredFlex, styles.gap17)}>
+                <Image src="/helika-logo.svg" alt="" width={117} height={24} />
                 <div className={styles.centeredFlex}>
                   <Image
                     src="/notcoin-logo.svg"
@@ -63,7 +64,6 @@ export default function Home() {
                   />
                   <div className={styles.notcoin}>Notcoin</div>
                 </div>
-                <Image src="/helika-logo.svg" alt="" width={117} height={24} />
               </div>
             {/*<div className={styles.centeredFlexMobileCol}>
                 <div className={styles.caption}>In Partnership with</div>
@@ -76,12 +76,11 @@ export default function Home() {
               className={joinClassNames(
                 styles.container,
                 styles.centeredFlex,
-                styles.gap12,
                 styles.mt74
               )}
             >
-              <div className={styles.logoWrapper}>
-                <Image src="/logo.svg" alt="" fill />
+              <div className={joinClassNames(styles.logoWrapper, styles.mrM16)}>
+                <Image src="/logo-purple.svg" alt="" fill />
               </div>
               <div>
                 <div className={styles.telegramGaming}>Telegram Gaming</div>
@@ -96,7 +95,7 @@ export default function Home() {
                 styles.mt90
               )}
             >
-              <div className={joinClassNames(styles.caption, styles.textGreen)}>
+              <div className={joinClassNames(styles.caption, styles.textPurple)}>
                 Lead the next wave of Telegram games
               </div>
               <Button
@@ -366,7 +365,7 @@ export default function Home() {
           {/*    <div*/}
           {/*      className={joinClassNames(*/}
           {/*        styles.title,*/}
-          {/*        styles.textGreen,*/}
+          {/*        styles.textPurple,*/}
           {/*        styles.textCenter,*/}
           {/*        styles.mt230,*/}
           {/*        styles.mobileTextLeft*/}
@@ -522,7 +521,7 @@ export default function Home() {
           {/*  )}*/}
           {/*  id="partners"*/}
           {/*>*/}
-          {/*  <div className={joinClassNames(styles.title, styles.textGreen)}>*/}
+          {/*  <div className={joinClassNames(styles.title, styles.textPurple)}>*/}
           {/*    Partners*/}
           {/*  </div>*/}
           {/*  <div*/}
@@ -540,7 +539,7 @@ export default function Home() {
           {/*          <span*/}
           {/*            className={joinClassNames(*/}
           {/*              styles.subtitle,*/}
-          {/*              styles.textGreen*/}
+          {/*              styles.textPurple*/}
           {/*            )}*/}
           {/*          >*/}
           {/*            Notcoin*/}
@@ -571,7 +570,7 @@ export default function Home() {
           {/*          <span*/}
           {/*            className={joinClassNames(*/}
           {/*              styles.subtitle,*/}
-          {/*              styles.textGreen*/}
+          {/*              styles.textPurple*/}
           {/*            )}*/}
           {/*          >*/}
           {/*            Helika*/}
@@ -607,7 +606,7 @@ export default function Home() {
           {/*  )}*/}
           {/*  id="cohort-success-stories"*/}
           {/*>*/}
-          {/*  <div className={joinClassNames(styles.title, styles.textGreen)}>*/}
+          {/*  <div className={joinClassNames(styles.title, styles.textPurple)}>*/}
           {/*    Cohort Success Stories*/}
           {/*  </div>*/}
           {/*  <div className={joinClassNames(styles.flexRow, styles.mt75)}>*/}
@@ -618,7 +617,7 @@ export default function Home() {
         </div>
         <div className={joinClassNames(styles.container, styles.bottom)}>
           <div
-            className={joinClassNames(styles.bottomCaption, styles.textGreen)}
+            className={joinClassNames(styles.bottomCaption, styles.textPurple)}
           >
             Lead the next wave
             <br /> of Telegram games
