@@ -1,9 +1,7 @@
 .iconContainer {
-    border-radius: 5px;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 6px;
     position: relative;
     box-sizing: border-box;
 }
@@ -16,11 +14,15 @@
 .sm {
     width: 34px;
     height: 34px;
+    padding: 6px;
+    border-radius: 5px;
 }
 
 .lg {
     width: 56px;
     height: 56px;
+    padding: 14px;
+    border-radius: 10px;
 }
 
 .white {
