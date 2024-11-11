@@ -200,12 +200,14 @@ export default function Home() {
                     We work with both industry giants and up and coming studios to help them build vibrant digital
                     worlds.
                   </div>
-                  <Image
-                    src="/helika-3d.png"
-                    alt=""
-                    width={280}
-                    height={361}
-                  />
+                  <div className={styles.selfCenter}>
+                    <Image
+                      src="/helika-3d.png"
+                      alt=""
+                      width={280}
+                      height={361}
+                    />
+                  </div>
                 </div>
               </div>
             </div>
