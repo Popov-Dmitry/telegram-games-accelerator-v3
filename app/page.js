@@ -5,6 +5,7 @@ import Button from "@/components/button/Button";
 import { joinClassNames } from "@/utils/join-class-names";
 import Link from "next/link";
 import Sns from "@/components/sns/Sns";
+import Icon from "@/components/icon/Icon";
 
 export default function Home() {
   return (
@@ -108,6 +109,7 @@ export default function Home() {
               height={465}
             />
           </div>
+
           <div className={joinClassNames(styles.block, styles.hFull)}>
             <div className={joinClassNames(styles.container, styles.centeredFlex)}>
               <div className={joinClassNames(styles.flexRow, styles.w780)}>
@@ -125,6 +127,62 @@ export default function Home() {
               </div>
             </div>
           </div>
+
+          <div className={styles.block}>
+            <div className={styles.container}>
+              <div className={joinClassNames(styles.box, styles.flexCol, styles.gap90)}>
+                <div className={styles.title}>What we offer</div>
+                <div className={joinClassNames(styles.grid3, styles.gridRowGap82, styles.gridColGap53)}>
+                  <div className={joinClassNames(styles.flexCol, styles.gap10, styles.alignStart)}>
+                    <Icon src="/people.svg" />
+                    <div className={joinClassNames(styles.textXl, styles.textBold)}>
+                      Free Traffic
+                    </div>
+                    <div className={styles.text}>
+                      Helika and its partners will drive gamers to cohort games to help test the products
+                    </div>
+                  </div>
+                  <div className={joinClassNames(styles.flexCol, styles.gap10, styles.alignStart)}>
+                    <Icon src="/poll.svg" />
+                    <div className={joinClassNames(styles.textXl, styles.textBold)}>
+                      Free Analytics
+                    </div>
+                    <div className={styles.text}>
+                      Cohort teams will get access to analytics dashboards to analyze the results of game tests
+                    </div>
+                  </div>
+                  <div className={joinClassNames(styles.flexCol, styles.gap10, styles.alignStart)}>
+                    <Icon src="/local-library.svg" />
+                    <div className={joinClassNames(styles.textXl, styles.textBold)}>
+                      Mentorship
+                    </div>
+                    <div className={styles.text}>
+                      Get expert guidance from gaming legends and Web3 experts
+                    </div>
+                  </div>
+                  <div className={joinClassNames(styles.flexCol, styles.gap10, styles.alignStart)}>
+                    <Icon src="/esports.svg" />
+                    <div className={joinClassNames(styles.textXl, styles.textBold)}>
+                      Community
+                    </div>
+                    <div className={styles.text}>
+                      Work and test together with you cohort mates, and join an exclusive group of alumni
+                    </div>
+                  </div>
+                  <div className={joinClassNames(styles.flexCol, styles.gap10, styles.alignStart)}>
+                    <Icon src="/card-travel.svg" />
+                    <div className={joinClassNames(styles.textXl, styles.textBold)}>
+                      Demo Day
+                    </div>
+                    <div className={styles.text}>
+                      Showcase your work in front of investors, media and industry peers
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
           <div
             className={joinClassNames(
               styles.block,
@@ -140,7 +198,7 @@ export default function Home() {
               )}
             >
               <div className={styles.mobileTextCenter}>
-                <Image src="/telegram.svg" alt="" width={36} height={36} />
+              <Image src="/telegram.svg" alt="" width={36} height={36} />
                 <div
                   className={joinClassNames(
                     styles.caption,
