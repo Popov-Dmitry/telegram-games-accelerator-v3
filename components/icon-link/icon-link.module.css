@@ -1,0 +1,57 @@
+.small, .large {
+    display: flex;
+    align-items: flex-end;
+    font-weight: 600;
+    text-align: left;
+    white-space: nowrap;
+}
+
+.small {
+    font-size: 24px;
+    line-height: 29px;
+    gap: 12px;
+}
+
+.large {
+    font-size: 55px;
+    line-height: 66px;
+    gap: 23px;
+}
+
+.largeIconVisible {
+    display: flex;
+    margin-bottom: 6px;
+}
+
+.smallIconVisible {
+    display: flex;
+    margin-bottom: 4px;
+}
+
+.mobileIconVisible {
+    display: none;
+    margin-bottom: 4px;
+}
+
+@media (max-width: 767px) {
+    .smallIconVisible,
+    .largeIconVisible {
+        display: none;
+    }
+
+    .mobileIconVisible {
+        display: flex;
+    }
+
+    .small {
+        font-size: 22px;
+        line-height: 26px;
+        gap: 8px;
+    }
+
+    .large {
+        font-size: 22px;
+        line-height: 26px;
+        gap: 8px;
+    }
+}
