@@ -291,6 +291,10 @@
   height: 100%;
 }
 
+.w750 {
+  max-width: 750px;
+}
+
 .w780 {
   max-width: 780px;
 }
@@ -429,6 +433,10 @@
   gap: 75px;
 }
 
+.flexWrap {
+  flex-wrap: wrap;
+}
+
 .grid2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -519,8 +527,16 @@
   gap: 17px;
 }
 
+.gap20 {
+  gap: 20px;
+}
+
 .gap24 {
   gap: 24px;
+}
+
+.gap30 {
+  gap: 30px;
 }
 
 .gap32 {

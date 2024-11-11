@@ -1,0 +1,11 @@
+.logoContainer {
+    width: 150px;
+    height: 60px;
+    border: 1px solid #7C6F8F;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 15px;
+    box-sizing: border-box;
+}

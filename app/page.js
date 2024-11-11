@@ -6,6 +6,7 @@ import { joinClassNames } from "@/utils/join-class-names";
 import Link from "next/link";
 import Sns from "@/components/sns/Sns";
 import Icon from "@/components/icon/Icon";
+import Logo from "@/components/logo/Logo";
 
 export default function Home() {
   return (
@@ -183,6 +184,40 @@ export default function Home() {
             </div>
           </div>
 
+          <div className={styles.block}>
+            <div className={joinClassNames(styles.container, styles.centeredFlex)}>
+              <div className={joinClassNames(styles.flexCol, styles.gap20, styles.w750)}>
+                <div className={joinClassNames(styles.title, styles.textPurple)}>
+                  Who we are
+                </div>
+                <div className={joinClassNames(styles.flexRow, styles.gap50)}>
+                  <div className={styles.text}>
+                    Helika is a gaming analytics company made up of gaming and Web3 veterans. Our goal is to empower
+                    studios with the tools to make data driven decisions to successfully develop and publish titles.
+                    <br /> <br />
+                    We work with both industry giants and up and coming studios to help them build vibrant digital
+                    worlds.
+                  </div>
+                  <Image
+                    src="/helika-3d.png"
+                    alt=""
+                    width={280}
+                    height={361}
+                  />
+                </div>
+              </div>
+            </div>
+            <div className={joinClassNames(styles.container, styles.centeredFlex, styles.flexWrap, styles.gap30, styles.w750, styles.mt70)}>
+              <Logo src="/ubisoft-logo.png" width={84} height={26} />
+              <Logo src="/yugalabs-logo.png" width={75} height={35} />
+              <Logo src="/parallel-logo.png" width={110} height={32} />
+              <Logo src="/animoca-brands-logo.png" width={64} height={38} />
+              <Logo src="/shrapnel-logo.png" width={90} height={10} />
+              <Logo src="/life-beyond-logo.png" width={90} height={21} />
+              <Logo src="/wildcard-logo.png" width={88} height={15} />
+            </div>
+          </div>
+
           <div
             className={joinClassNames(
               styles.block,
@@ -198,7 +233,7 @@ export default function Home() {
               )}
             >
               <div className={styles.mobileTextCenter}>
-              <Image src="/telegram.svg" alt="" width={36} height={36} />
+                <Image src="/telegram.svg" alt="" width={36} height={36} />
                 <div
                   className={joinClassNames(
                     styles.caption,
