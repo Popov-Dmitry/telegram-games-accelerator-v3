@@ -235,9 +235,10 @@
   background: linear-gradient(178.68deg, rgba(0, 0, 0, 0) 30.74%, rgba(4, 11, 33, 0.17) 43.68%, #9654F0 106.84%);
 }
 
-.pixelBackground {
-  background: url("/pixel-background.png") no-repeat 0 35px;
-  overflow-x: hidden;
+.heroBgIcon {
+  position: absolute;
+  bottom: 64px;
+  right: 0;
 }
 
 .hFull {

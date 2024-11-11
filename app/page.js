@@ -43,7 +43,8 @@ export default function Home() {
               styles.block,
               styles.pb125,
               styles.heroBackground,
-              styles.hFull
+              styles.hFull,
+              styles.relative
             )}
           >
             <div
@@ -65,12 +66,6 @@ export default function Home() {
                   <div className={styles.notcoin}>Notcoin</div>
                 </div>
               </div>
-            {/*<div className={styles.centeredFlexMobileCol}>
-                <div className={styles.caption}>In Partnership with</div>
-                 <div className={styles.tonVenturesLogoWrapper}>
-                   <Image src="/ton-ventures.png" alt="" fill />
-                 </div>
-              </div>*/}
             </div>
             <div
               className={joinClassNames(
@@ -105,11 +100,17 @@ export default function Home() {
                 className={styles.mt20}
               />
             </div>
+            <Image
+              className={styles.heroBgIcon}
+              src="/hero-bg-icon.svg"
+              alt=""
+              width={482}
+              height={465}
+            />
           </div>
           <div
             className={joinClassNames(
               styles.block,
-              styles.pixelBackground,
               styles.mt110
             )}
           >
