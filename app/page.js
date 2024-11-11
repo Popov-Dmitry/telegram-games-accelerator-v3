@@ -252,9 +252,7 @@ export default function Home() {
         </div>
 
         <div className={joinClassNames(styles.container, styles.bottom)}>
-          <div
-            className={joinClassNames(styles.bottomCaption, styles.textPurple)}
-          >
+          <div className={joinClassNames(styles.bottomCaption, styles.textPurple)}>
             Lead the next wave
             <br /> of Telegram games
           </div>
@@ -287,16 +285,6 @@ export default function Home() {
             {/*  </Link>*/}
             {/*</div>*/}
             <div className={joinClassNames(styles.centeredFlex, styles.gap24)}>
-              <div className={styles.centeredFlex}>
-                <Image src="/notcoin-logo.svg" alt="" width={24} height={24} />
-                <Link
-                  href="https://notco.in"
-                  target="_blank"
-                  className={styles.notcoinFooter}
-                >
-                  Notcoin
-                </Link>
-              </div>
               <Link
                 className={styles.helikaLogoWrapper}
                 href="https://helika.io"
@@ -309,6 +297,16 @@ export default function Home() {
                   className={styles.helikaLogo}
                 />
               </Link>
+              <div className={styles.centeredFlex}>
+                <Image src="/notcoin-logo.svg" alt="" width={24} height={24} />
+                <Link
+                  href="https://notco.in"
+                  target="_blank"
+                  className={styles.notcoinFooter}
+                >
+                  Notcoin
+                </Link>
+              </div>
             </div>
           </div>
           <Sns style={styles.footerSns} />
