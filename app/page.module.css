@@ -1,10 +1,14 @@
-.container {
+.container, .boxContainer {
   max-width: 1200px;
   width: 100%;
   padding: 0 80px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+}
+
+.boxContainer {
+  padding: 0 58px;
 }
 
 .headerWrapper, .footerWrapper {
@@ -267,8 +271,8 @@
   border: 1px solid #FFFFFF80
 }
 
-.px174 {
-  padding: 0 174px;
+.px152 {
+  padding: 0 152px;
 }
 
 .pb125 {
@@ -654,7 +658,7 @@
 }
 
 @media (max-width: 767px) {
-  .container {
+  .container, .boxContainer {
     padding: 0 20px;
   }
 

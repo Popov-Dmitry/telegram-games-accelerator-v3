@@ -132,7 +132,7 @@ export default function Home() {
           </div>
 
           <div className={styles.block}>
-            <div className={styles.container}>
+            <div className={styles.boxContainer}>
               <div className={joinClassNames(styles.box, styles.flexCol, styles.gap90)}>
                 <div className={styles.title}>What we offer</div>
                 <div className={joinClassNames(styles.grid3, styles.gridRowGap82, styles.gridColGap53)}>
@@ -225,7 +225,7 @@ export default function Home() {
           </div>
 
           <div className={styles.block}>
-            <div className={joinClassNames(styles.container, styles.flexCol, styles.gap120, styles.px174)}>
+            <div className={joinClassNames(styles.container, styles.flexCol, styles.gap120, styles.px152)}>
               <div className={joinClassNames(styles.title, styles.textPurple)}>
                 Who we are looking for
               </div>
