@@ -100,7 +100,7 @@
   align-items: center;
   width: 100%;
   gap: 280px;
-  margin: 110px 0 190px 0;
+  margin: 110px 0 280px 0;
 }
 
 .block {
@@ -139,19 +139,20 @@
 
 .telegramGaming {
   font-family: var(--font-inter-tight);
-  font-size: 33px;
+  font-size: 39px;
   font-weight: 600;
-  line-height: 40px;
+  line-height: 47px;
   text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
+
 }
 
 .accelerator {
   font-family: var(--font-inter-tight);
-  font-size: 16px;
+  font-size: 19px;
   font-weight: 500;
-  line-height: 19px;
+  line-height: 23px;
   letter-spacing: 0.51em;
   text-align: center;
   text-underline-position: from-font;
@@ -245,7 +246,7 @@
 
 .box {
   border-radius: 10px;
-  padding: 92px 84px;
+  padding: 94px;
   background: linear-gradient(90deg, #4146AE -7.19%, #9654F0 73.2%, #9654F0 95.18%);
 }
 
@@ -266,6 +267,10 @@
   border: 1px solid #FFFFFF80
 }
 
+.px174 {
+  padding: 0 174px;
+}
+
 .pb125 {
   padding-bottom: 125px;
   width: 100%;
@@ -273,6 +278,10 @@
 
 .pb255 {
   padding-bottom: 255px;
+}
+
+.pb280 {
+  padding-bottom: 200px;
 }
 
 .mrM16 {
@@ -617,7 +626,6 @@
   flex-direction: column;
   align-items: end;
   gap: 26px;
-  width: 100%;
 }
 
 .bottomCaption {

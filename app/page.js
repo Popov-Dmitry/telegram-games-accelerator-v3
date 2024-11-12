@@ -111,10 +111,10 @@ export default function Home() {
             />
           </div>
 
-          <div className={joinClassNames(styles.block, styles.hFull)}>
+          <div className={styles.block}>
             <div className={joinClassNames(styles.container, styles.centeredFlex)}>
               <div className={joinClassNames(styles.flexRow, styles.w780)}>
-                <Image
+                <img
                   src="/logo-3d.png"
                   alt=""
                   width={320}
@@ -186,7 +186,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className={joinClassNames(styles.block, styles.heroBackground, styles.pb125)}>
+          <div className={joinClassNames(styles.block, styles.heroBackground, styles.pb280)}>
             <div className={joinClassNames(styles.container, styles.centeredFlex)}>
               <div className={joinClassNames(styles.flexCol, styles.gap20, styles.w750)}>
                 <div className={joinClassNames(styles.title, styles.textPurple)}>
@@ -201,7 +201,7 @@ export default function Home() {
                     worlds.
                   </div>
                   <div className={styles.selfCenter}>
-                    <Image
+                    <img
                       src="/helika-3d.png"
                       alt=""
                       width={280}
@@ -216,16 +216,16 @@ export default function Home() {
                 <Logo src="/ubisoft-logo.png" width={84} height={26} />
                 <Logo src="/yugalabs-logo.png" width={75} height={35} />
                 <Logo src="/parallel-logo.png" width={110} height={32} />
-                <Logo src="/animoca-brands-logo.png" width={64} height={38} />
-                <Logo src="/shrapnel-logo.png" width={90} height={10} />
-                <Logo src="/life-beyond-logo.png" width={90} height={21} />
+                <Logo src="/nexon-logo.png" width={86} height={27} />
+                <Logo src="/c2us-logo.png" width={87} height={17} />
+                <Logo src="/pop-logo.png" width={56} height={42} />
                 <Logo src="/wildcard-logo.png" width={88} height={15} />
               </div>
             </div>
           </div>
 
           <div className={styles.block}>
-            <div className={joinClassNames(styles.container, styles.flexCol, styles.gap120)}>
+            <div className={joinClassNames(styles.container, styles.flexCol, styles.gap120, styles.px174)}>
               <div className={joinClassNames(styles.title, styles.textPurple)}>
                 Who we are looking for
               </div>
@@ -253,18 +253,22 @@ export default function Home() {
           </div>
         </div>
 
-        <div className={joinClassNames(styles.container, styles.bottom)}>
-          <div className={joinClassNames(styles.bottomCaption, styles.textPurple)}>
-            Lead the next wave
-            <br /> of Telegram games
-          </div>
-          <div className={styles.bottomCenter}>
-            <IconLink
-              text="Apply"
-              size="lg"
-              href="https://airtable.com/appXnUdjNS7Fzxpq7/pagWSQDZwdqEVDv01/form"
-              icon="./arrow.svg"
-            />
+        <div className={joinClassNames(styles.container)}>
+          <div className={styles.centeredFlex}>
+            <div className={styles.bottom}>
+              <div className={joinClassNames(styles.bottomCaption, styles.textPurple)}>
+                Lead the next wave
+                <br /> of Telegram games
+              </div>
+              <div className={styles.bottomCenter}>
+                <IconLink
+                  text="Apply"
+                  size="lg"
+                  href="https://airtable.com/appXnUdjNS7Fzxpq7/pagWSQDZwdqEVDv01/form"
+                  icon="./arrow.svg"
+                />
+              </div>
+            </div>
           </div>
         </div>
       </main>
