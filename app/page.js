@@ -121,8 +121,8 @@ export default function Home() {
                   height={346}
                 />
                 <div className={styles.textXl}>
-                  TGA is a Helika operated early stage accelerator for gaming studios looking to capitalize on the
-                  greenfield opportunity of the Telegram platform.
+                  TGA is an early stage accelerator for gaming studios looking to capitalize on the greenfield
+                  opportunity of the Telegram platform.
                   <br /> <br />
                   Our intensive 10-week program focuses on product testing and iterative development, and is designed to
                   help studios rapidly improve their games as they prepare to launch their titles.
@@ -212,7 +212,8 @@ export default function Home() {
               </div>
             </div>
             <div className={joinClassNames(styles.container, styles.centeredFlex)}>
-              <div className={joinClassNames(styles.centeredFlex, styles.flexWrap, styles.gap30, styles.w750, styles.mt70)}>
+              <div
+                className={joinClassNames(styles.centeredFlex, styles.flexWrap, styles.gap30, styles.w750, styles.mt70)}>
                 <Logo src="/ubisoft-logo.png" width={84} height={26} />
                 <Logo src="/yugalabs-logo.png" width={75} height={35} />
                 <Logo src="/parallel-logo.png" width={110} height={32} />
