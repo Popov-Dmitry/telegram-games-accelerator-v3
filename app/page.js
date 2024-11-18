@@ -164,12 +164,21 @@ export default function Home() {
                     </div>
                   </div>
                   <div className={joinClassNames(styles.flexCol, styles.gap10, styles.alignStart)}>
+                    <Icon src="/lightbulb.svg" />
+                    <div className={joinClassNames(styles.textXl, styles.textBold)}>
+                      Telegram and TON Insights
+                    </div>
+                    <div className={styles.text}>
+                      Learn what works and what doesn’t from successful pioneers
+                    </div>
+                  </div>
+                  <div className={joinClassNames(styles.flexCol, styles.gap10, styles.alignStart)}>
                     <Icon src="/esports.svg" />
                     <div className={joinClassNames(styles.textXl, styles.textBold)}>
                       Community
                     </div>
                     <div className={styles.text}>
-                      Work and test together with you cohort mates, and join an exclusive group of alumni
+                      Work and test together with your cohort mates, and join an exclusive group of alumni
                     </div>
                   </div>
                   <div className={joinClassNames(styles.flexCol, styles.gap10, styles.alignStart)}>
@@ -178,7 +187,7 @@ export default function Home() {
                       Demo Day
                     </div>
                     <div className={styles.text}>
-                      Showcase your work in front of investors, media and industry peers
+                      Showcase your work in front of investors, media, and industry peers
                     </div>
                   </div>
                 </div>
