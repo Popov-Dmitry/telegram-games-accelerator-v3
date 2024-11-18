@@ -195,41 +195,53 @@ export default function Home() {
             </div>
           </div>
 
-          <div className={joinClassNames(styles.block, styles.heroBackground, styles.pb280)}>
-            <div className={joinClassNames(styles.container, styles.centeredFlex)}>
-              <div className={joinClassNames(styles.flexCol, styles.gap20, styles.w750)}>
+          <div className={joinClassNames(styles.block, styles.heroBackground, styles.pb272)}>
+            <div className={joinClassNames(styles.container, styles.flexCol)}>
+              <div className={joinClassNames(styles.flexCol, styles.gap120, styles.w750)}>
                 <div className={joinClassNames(styles.title, styles.textPurple)}>
                   Who we are
                 </div>
                 <div className={joinClassNames(styles.flexRow, styles.gap50)}>
-                  <div className={styles.text}>
-                    Helika is a gaming analytics company made up of gaming and Web3 veterans. Our goal is to empower
-                    studios with the tools to make data driven decisions to successfully develop and publish titles.
-                    <br /> <br />
-                    We work with both industry giants and up and coming studios to help them build vibrant digital
-                    worlds.
+                  <div>
+                    <div className={styles.text}>
+                      Helika is a gaming analytics company made up of gaming and Web3 veterans. Our goal is to empower
+                      studios with the tools to make data driven decisions to successfully develop and publish titles.
+                      <br /> <br />
+                      We work with both industry giants and up and coming studios to help them build vibrant digital
+                      worlds.
+                    </div>
+                    <div
+                      className={joinClassNames(styles.flex, styles.flexWrap, styles.gap15, styles.w750, styles.mt40)}>
+                      <Logo src="/ubisoft-logo.png" width={84} height={26} />
+                      <Logo src="/yugalabs-logo.png" width={75} height={35} />
+                      <Logo src="/parallel-logo.png" width={110} height={32} />
+                      <Logo src="/nexon-logo.png" width={86} height={27} />
+                      <Logo src="/c2us-logo.png" width={87} height={17} />
+                      <Logo src="/pop-logo.png" width={56} height={42} />
+                      <Logo src="/wildcard-logo.png" width={88} height={15} />
+                    </div>
                   </div>
                   <div className={styles.selfCenter}>
                     <img
                       src="/helika-3d.png"
                       alt=""
-                      width={280}
-                      height={361}
+                      className={styles.helika3dIcon}
                     />
                   </div>
                 </div>
               </div>
-            </div>
-            <div className={joinClassNames(styles.container, styles.centeredFlex)}>
-              <div
-                className={joinClassNames(styles.centeredFlex, styles.flexWrap, styles.gap30, styles.w750, styles.mt70)}>
-                <Logo src="/ubisoft-logo.png" width={84} height={26} />
-                <Logo src="/yugalabs-logo.png" width={75} height={35} />
-                <Logo src="/parallel-logo.png" width={110} height={32} />
-                <Logo src="/nexon-logo.png" width={86} height={27} />
-                <Logo src="/c2us-logo.png" width={87} height={17} />
-                <Logo src="/pop-logo.png" width={56} height={42} />
-                <Logo src="/wildcard-logo.png" width={88} height={15} />
+              <div className={joinClassNames(styles.flexRow, styles.gap50, styles.w750, styles.mt90)}>
+                <div className={styles.text}>
+                  Notcoin pioneered tap to earn gaming in Telegram, creating a user acquisition platform with access
+                  to millions of gamers. It has become one of the core anchors and stewards of the TON ecosystem.
+                </div>
+                <div className={joinClassNames(styles.selfCenter, styles.mrM24)}>
+                  <img
+                    src="/notcoin-icon.png"
+                    alt=""
+                    className={styles.notcoinIcon}
+                  />
+                </div>
               </div>
             </div>
           </div>

@@ -1,11 +1,11 @@
 .logoContainer {
-    width: 150px;
-    height: 60px;
+    width: 120px;
+    height: 48px;
     border: 1px solid #7C6F8F;
-    border-radius: 10px;
+    border-radius: 5px;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 10px 15px;
+    padding: 4px 10px;
     box-sizing: border-box;
 }

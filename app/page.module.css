@@ -284,12 +284,16 @@
   padding-bottom: 255px;
 }
 
-.pb280 {
-  padding-bottom: 200px;
+.pb272 {
+  padding-bottom: 272px;
 }
 
 .mrM16 {
   margin-right: -16px;
+}
+
+.mrM24 {
+  margin-right: -24px;
 }
 
 .mt10 {
@@ -498,6 +502,10 @@
   gap: 13px;
 }
 
+.gap15 {
+  gap: 15px;
+}
+
 .gap17 {
   gap: 17px;
 }
@@ -655,6 +663,16 @@
   bottom: 0;
   height: 100%;
   width: 100%;
+}
+
+.helika3dIcon {
+  width: 280px;
+  height: 361px;
+}
+
+.notcoinIcon {
+  width: 304px;
+  height: 307px;
 }
 
 @media (max-width: 767px) {
@@ -854,6 +872,24 @@
     gap: 16px;
   }
 
+  .gap90 {
+    gap: 40px;
+  }
+
+  .gap120 {
+    gap: 50px;
+  }
+
+  .notcoinIcon {
+    width: 202px;
+    height: 204px;
+  }
+
+  .helika3dIcon {
+    width: 180px;
+    height: 261px;
+  }
+
   .mobileNone {
     display: none;
   }
@@ -939,7 +975,6 @@
   }
 
   .flexRow {
-    margin-top: 56px;
     gap: 48px;
     flex-flow: column nowrap;
     align-items: flex-start;
