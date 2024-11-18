@@ -45,7 +45,8 @@ export default function RootLayout({ children }) {
           content="Lead the next wave of Telegram games"
         />
         <meta property="og:url" content="https://www.gaming.tg/" />
-        <meta property="og:image" content="https://www.gaming.tg/og.png" />
+        <meta property="og:image" content="/twitter-card.png" />
+        <meta property="twitter:image" content="/twitter-card.png" />
         <link rel="icon" href="/logo.svg" sizes="any" />
       </head>
       <body
