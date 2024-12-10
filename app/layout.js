@@ -2,6 +2,8 @@ import { Inter, Inter_Tight } from "next/font/google";
 import "./globals.css";
 import { joinClassNames } from "@/utils/join-class-names";
 import localFont from "next/font/local";
+import Header from "@/components/header/Header";
+import Footer from "@/components/footer/Footer";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -57,7 +59,9 @@ export default function RootLayout({ children }) {
           paralucent.variable
         )}
       >
-        {children}
+        <Header />
+        <main>{children}</main>
+        <Footer />
       </body>
     </html>
   );

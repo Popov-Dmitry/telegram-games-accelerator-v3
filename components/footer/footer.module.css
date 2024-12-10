@@ -1,0 +1,94 @@
+.footerWrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-top: 1px solid #FFFFFF26;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    padding: 0 80px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 21px 80px 6px 80px;
+    width: initial;
+}
+
+.logo, .links, .notcoin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    gap: 10px;
+}
+
+.links {
+    gap: 24px;
+}
+
+.footerText {
+    font-family: var(--font-inter-tight);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.helikaLogoWrapper {
+    position: relative;
+    height: 20px;
+    width: 97px;
+}
+
+.helikaLogo {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.notcoinFooter {
+    font-family: var(--font-inter);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 25px;
+}
+
+.footerSns {
+    padding: 0 80px 21px 118px;
+    align-self: start;
+}
+
+@media (max-width: 767px) {
+    .container {
+        padding: 0 20px;
+    }
+
+    .footer {
+        padding: 21px 20px !important;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footerText {
+        font-size: 14px;
+    }
+
+    .footerSns {
+        justify-content: center;
+    }
+}
