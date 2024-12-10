@@ -31,10 +31,6 @@
     text-align: center;
 }
 
-.underline {
-    text-decoration: underline;
-}
-
 .list {
     margin-top: 40px;
     display: flex;
