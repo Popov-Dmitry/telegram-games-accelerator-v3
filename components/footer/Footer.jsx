@@ -3,6 +3,7 @@ import styles from "./footer.module.css";
 import Image from "next/image";
 import Link from "next/link";
 import Sns from "@/components/sns/Sns";
+import { joinClassNames } from "@/utils/join-class-names";
 
 const Footer = () => {
   return (
@@ -38,7 +39,13 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <Sns style={styles.footerSns} />
+        <div className={styles.bottom}>
+          <Sns style={styles.footerSns} />
+          <div className={joinClassNames(styles.links, styles.linksText)}>
+            <Link href="/terms-of-service">Terms of Service</Link>
+            <Link href="/privacy-policy">Privacy Policy</Link>
+          </div>
+        </div>
       </div>
     </footer>
   );
