@@ -16,6 +16,18 @@ const TermsOfService = () => {
             <div className={styles.text}>{content}</div>
           </div>
         ))}
+        <div className={styles.item}>
+          <div className={styles.title}>SECTION 18 - CONTACT INFORMATION</div>
+          <div className={styles.text}>
+            <div>
+              Questions about the Terms of Service should be sent to us at <a href="mailto:support@helika.io" className={styles.underline}>support@helika.io</a>
+            </div>
+            <div>Our contact information is posted below:</div>
+            <div>Helika Corp</div>
+            <a href="mailto:support@helika.io" className={styles.underline}>support@helika.io</a>
+            <div>2200 Rue Stanley, Montreal, Quebec, Canada, H3A 1R6</div>
+          </div>
+        </div>
       </div>
     </div>
   );
