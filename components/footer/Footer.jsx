@@ -27,16 +27,16 @@ const Footer = () => {
                 className={styles.helikaLogo}
               />
             </Link>
-            <div className={styles.notcoin}>
-              <Image src="/notcoin-logo.svg" alt="" width={24} height={24} />
-              <Link
-                href="https://notco.in"
-                target="_blank"
-                className={styles.notcoinFooter}
-              >
-                Notcoin
-              </Link>
-            </div>
+            {/*<div className={styles.notcoin}>*/}
+            {/*  <Image src="/notcoin-logo.svg" alt="" width={24} height={24} />*/}
+            {/*  <Link*/}
+            {/*    href="https://notco.in"*/}
+            {/*    target="_blank"*/}
+            {/*    className={styles.notcoinFooter}*/}
+            {/*  >*/}
+            {/*    Notcoin*/}
+            {/*  </Link>*/}
+            {/*</div>*/}
           </div>
         </div>
         <div className={styles.bottom}>

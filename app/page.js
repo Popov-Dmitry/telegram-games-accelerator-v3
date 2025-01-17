@@ -30,15 +30,15 @@ export default function Home() {
           >
             <div className={joinClassNames(styles.centeredFlex, styles.gap17)}>
               <Image src="/helika-logo.svg" alt="" width={117} height={24} />
-              <div className={styles.centeredFlex}>
-                <Image
-                  src="/notcoin-logo.svg"
-                  alt=""
-                  width={28}
-                  height={28}
-                />
-                <div className={styles.notcoin}>Notcoin</div>
-              </div>
+              {/*<div className={styles.centeredFlex}>*/}
+              {/*  <Image*/}
+              {/*    src="/notcoin-logo.svg"*/}
+              {/*    alt=""*/}
+              {/*    width={28}*/}
+              {/*    height={28}*/}
+              {/*  />*/}
+              {/*  <div className={styles.notcoin}>Notcoin</div>*/}
+              {/*</div>*/}
             </div>
           </div>
           <div
@@ -202,19 +202,19 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className={joinClassNames(styles.flexRow, styles.gap50, styles.w750, styles.mt90)}>
-              <div className={styles.text}>
-                Notcoin pioneered tap to earn gaming in Telegram, creating a user acquisition platform with access
-                to millions of gamers. It has become one of the core anchors and stewards of the TON ecosystem.
-              </div>
-              <div className={joinClassNames(styles.selfCenter, styles.mrM24)}>
-                <img
-                  src="/notcoin-icon.png"
-                  alt=""
-                  className={styles.notcoinIcon}
-                />
-              </div>
-            </div>
+            {/*<div className={joinClassNames(styles.flexRow, styles.gap50, styles.w750, styles.mt90)}>*/}
+            {/*  <div className={styles.text}>*/}
+            {/*    Notcoin pioneered tap to earn gaming in Telegram, creating a user acquisition platform with access*/}
+            {/*    to millions of gamers. It has become one of the core anchors and stewards of the TON ecosystem.*/}
+            {/*  </div>*/}
+            {/*  <div className={joinClassNames(styles.selfCenter, styles.mrM24)}>*/}
+            {/*    <img*/}
+            {/*      src="/notcoin-icon.png"*/}
+            {/*      alt=""*/}
+            {/*      className={styles.notcoinIcon}*/}
+            {/*    />*/}
+            {/*  </div>*/}
+            {/*</div>*/}
           </div>
         </div>
 
